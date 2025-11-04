@@ -1,0 +1,40 @@
+# Entorno virtual
+venv/
+.env
+.env.*
+
+# Archivos de cache de Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Configuraciones locales
+.DS_Store
+*.log
+
+# Modelos o pesos descargados
+models/
+*.ckpt
+*.pt
+*.pth
+
+# Archivos de audio temporales
+*.wav
+*.mp3
+*.flac
+
+# Archivos de ejecución
+*.exe
+*.bat
+
+# Archivos de entorno o IDE
+.vscode/
+.idea/
+*.iml
+
+# Carpetas de datos o cache del TTS / Whisper
+TTS/.models.json
+.whisper_cache/
+whisper.cpp/
+cache/
