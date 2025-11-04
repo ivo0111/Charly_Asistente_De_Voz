@@ -10,12 +10,7 @@ import requests
 mcp = FastMCP("LocalTools")
 
 @mcp.tool()
-def prueba(number: float) -> float:
-    """Devuelve el resultado de aplicar la función Maurística al número dado"""
-    return number / 2 + 10
-
-@mcp.tool()
-def hora_actual() -> str:
+def hora_actual(*args) -> str:
     """Devuelve la hora y fecha actual en formato legible"""
     ahora = datetime.datetime.now()
     return ahora.strftime("Son las %H:%M del %d de %B de %Y.")
