@@ -1,0 +1,10 @@
+fastmcp[http]
+uvicorn
+requests
+TTS
+faster-whisper
+speechrecognition
+sounddevice
+numpy
+wikipedia
+python-dotenv
